@@ -1,0 +1,253 @@
+/*For the headings of each webpage*/
+h1{
+    font-weight: 20;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-top:30pt;
+    letter-spacing: 0.3em;
+    font-size:16px;
+    text-transform:uppercase;
+    white-space: pre;
+}
+/*css for the nav bar itself*/
+.horizontal ul {
+    list-style-type: none; /*takes away bullet points*/
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /*cuts off text*/
+    background-color: #333;
+  }
+/*moves the navigation bar labels to the left*/
+.horizontal li {
+    float: left;
+  }
+/*for label text on the nav bar*/
+.horizontal a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: 20;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.3em;
+    font-size:10pt;
+    text-transform: uppercase;
+  }
+/*Changes colour when mouse hovers over label*/
+.horizontal li a:hover {
+    background-color: #111;
+  }
+/*for form position*/
+  form{
+      margin-left:250pt;
+      margin-top:20pt;
+  }
+
+/*for rectangular boxes within form*/
+fieldset{
+    padding:20px;
+    width: 30em;
+    margin-top: 10pt;
+    margin-bottom:20pt;
+    background-color: white;
+    border-color:  black;
+}
+
+/*title for fieldset*/
+label{
+    font-weight:20pt;
+    letter-spacing: 0.3em;
+    font-family: 'Montserrat', sans-serif;
+    text-transform:uppercase;
+    white-space: pre;
+    font-size: 12px;
+}
+
+/*fieldset boxes*/
+.box{
+    background-color:white;
+   
+}
+/*for heading of form*/
+legend{
+    background-color: #7180AC;
+    color:white;
+    text-align: center;
+    font-weight:20pt;
+    letter-spacing: 0.3em;
+    font-family: 'Montserrat', sans-serif;
+    text-transform:uppercase;
+    white-space: pre;
+    font-size: 16px;
+    display: block;
+    padding-left: 9em;
+    padding-right:9em;
+    padding-top:0.5em;
+    padding-bottom:0.5em;
+}
+
+/*for buttons*/
+#a button{
+    margin-top: 30px;
+    align-items: center;
+    padding-right: 40pt;
+    padding-left: 40pt;
+    padding-left: 10em;
+    padding-right:10em;
+    padding-top:15pt;
+    padding-bottom:15pt;
+    font-family: 'Montserrat', sans-serif;
+    text-transform:uppercase;
+    white-space: pre;
+    border:none;
+    border-radius: 10px;
+    background-color: #7180AC;
+    color: white;
+    font-size:12pt;
+    letter-spacing: 0.3em;
+    margin-left:40pt;
+}
+/*for buttons*/
+#b button{
+    margin-top: 30px;
+    padding-right: 40pt;
+    padding-left: 40pt;
+    padding-left: 10em;
+    padding-right:10em;
+    padding-top:15pt;
+    padding-bottom:15pt;
+    font-family: 'Montserrat', sans-serif;
+    text-transform:uppercase;
+    white-space: pre;
+    font-size:12pt;
+    letter-spacing: 0.3em;
+    margin-left:38pt;
+}
+
+/*blog post*/
+.procedural{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right:210pt;
+    margin-left:220pt;
+}
+
+/*For the contacts section on the home page*/
+h3{
+    font-weight: 20;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    letter-spacing: 0.3em;
+    font-size:14px;
+    text-transform:inherit;
+    border: solid #333;
+    border-spacing: 10pt;
+    background-color:#333;
+    color: white;  
+}
+/*for the Contact us heading in the contacts section on the home page*/
+h6{
+    font-weight: 20;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    letter-spacing: 0.3em;
+    font-size:14px;
+    text-transform:uppercase;
+    border: solid #333;
+    border-spacing: 100pt;
+    background-color:#333;
+    color: white;
+}
+
+/*footer*/
+
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #24262b;
+    padding: 40px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 20px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 600;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e8998d;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li{
+    margin-bottom: 10px;
+    color:white;
+    font-size: 16px;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #dedede;
+	display: block;
+	transition: all 0.3s ease;
+
+
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 20%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #e91e63;
+}
+
+.education td{
+    color:#333;
+}

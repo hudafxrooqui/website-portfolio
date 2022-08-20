@@ -1,0 +1,627 @@
+/*css for the nav bar itself*/
+.horizontal ul {
+    list-style-type: none; /*takes away bullet points*/
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /*cuts off text*/
+    background-color: #333;
+  }
+/*moves the navigation bar labels to the left*/
+.horizontal li {
+    float: left;
+  }
+/*for label text on the nav bar*/
+.horizontal a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: 20;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.3em;
+    font-size:10pt;
+    
+  }
+/*Changes colour when mouse hovers over label*/
+.horizontal li a:hover {
+    background-color: #111;
+  }
+
+/*For the headings of each webpage*/
+h1{
+    font-weight: 20;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-top:30pt;
+    letter-spacing: 0.3em;
+    font-size:16px;
+    text-transform:uppercase;
+    white-space: pre;
+}
+
+/*For the contacts section on the home page*/
+h3{
+    font-weight: 20;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    letter-spacing: 0.3em;
+    font-size:14px;
+    text-transform:inherit;
+    border: solid #333;
+    border-spacing: 10pt;
+    background-color:#333;
+    color: white;  
+}
+
+/*for the Contact us heading in the contacts section on the home page*/
+h6{
+    font-weight: 20;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    letter-spacing: 0.3em;
+    font-size:14px;
+    text-transform:uppercase;
+    border: solid #333;
+    border-spacing: 100pt;
+    background-color:#333;
+    color: white;
+}
+
+/*for the rectangles within the table on the blog page*/
+td{
+    border:solid;
+    font-family: 'Montserrat', sans-serif;
+    font-size:18px;
+    text-align: center;
+    
+}
+/*for the table background and spacing between the rectangles within the table(for both tables)*/
+table { 
+    padding:20px;
+    border-spacing: 50px;
+    background-color: #eee;
+}
+/*for the spacing between collumns in the table(for both tables)*/
+td{
+    padding:15px;
+}
+/*for the portfolio table*/
+#a{
+    font-family: 'Inter';
+    letter-spacing: 0.1pt;
+    background-color: #7180ac;
+    color: white;
+    border-color: #7180ac;
+    font-size: 10pt;
+    align-items: center;
+}
+/*for the portfolio table*/
+#b{
+    font-family: 'Inter';
+    letter-spacing: 0.1pt;
+    background-color: #9aa8a8;
+    color: white;    
+    border-color: #9aa8a8;
+    font-size: 10pt;
+    align-items: center;
+}
+
+/*for the portfolio table*/
+#c{
+    font-family: 'Inter';
+    letter-spacing: 0.1pt;
+    background-color: #49b790;
+    color: white;
+    border-color: #49b790;
+    font-size: 10pt;
+    align-items: center;
+}
+
+/*for the portfolio table*/
+#d{
+    font-family: 'Inter';
+    letter-spacing: 0.1pt;
+    background-color: #e8998d;
+    color: white;
+    border-color: #e8998d;
+    font-size: 10pt;
+    align-items: center;
+}
+/*for the portfolio table*/
+#e{
+    font-family: 'Inter';
+    letter-spacing: 0.1pt;
+    background-color: #7180AC;
+    color: white;
+    border-color: #7180AC;
+    font-size: 10pt;
+    align-items: center;
+}
+
+/*for the portfolio table*/
+#f{
+    font-family: 'Inter';
+    letter-spacing: 0.1pt;
+    background-color: #9aa8a8;
+    color: white;
+    border-color: #9aa8a8;
+    font-size: 10pt;
+    align-items: center;
+}
+
+
+/*link on Portfolio page*/
+a{
+    font-family: 'Inter';
+    text-transform:uppercase;
+    float:left;
+    font-size: 6pt;
+}
+/*for the introductory paragraph on home page*/
+.introduction p{
+    position:absolute;
+    font-family: 'Inter';
+    letter-spacing: 0.1pt;
+    font-weight:100;
+    color: #e8998d;
+    font-size:15pt;
+    display: block;
+    margin-top: 87pt;
+    margin-right:500px;
+    margin-left:400px;
+}
+/*for the image on home page*/
+#image{
+    float:right;
+    position:absolute;
+    top:143px;
+    right:20em;
+    border:solid;
+    border-color: #e8998d;
+    padding:2pt;
+    background-color: #e8998d;
+}
+/*for the title underneath the header on the home page*/
+div.title{
+    font-family: alex-brush;
+    position: absolute;
+    bottom:290pt;
+    margin-left:25em;
+}
+
+/*link under the introductory paragraph*/
+.introduction a{
+    position:absolute;
+    font-family: 'Inter';
+    letter-spacing: 0.1pt;
+    font-weight:100;
+    color: #4c5364;
+    font-size:10pt;
+    display: block;
+    margin-top: 150pt;
+    text-align: left;
+    margin-right:200pt;
+    margin-left:300pt;
+    text-transform:inherit;
+}
+/*changes colour when mouse hovers over link*/
+.introduction a:hover {
+    background-color: #7180ac;
+  }
+
+/*circle on home page*/
+.circle1{
+    height: 50px;
+    width: 50px;
+    margin-left: 60pt;
+    bottom:300pt;
+    background-color: #555;
+    border-radius: 50%;
+    position: absolute;
+}
+
+/*circle on home page*/
+.circle2{
+    height: 50px;
+    width: 50px;
+    margin-left: 120pt;
+    bottom:80pt;
+    border:solid;
+    border-color: #e8998d;
+    border-radius: 50%;
+    position: absolute;
+}
+/*circle on home page*/
+.circle3{
+    height: 50px;
+    width: 50px;
+    margin-left: 230pt;
+    bottom:200pt;
+    border:solid;
+    border-color: #7180ac;
+    background-color: #7180ac;
+    border-radius: 50%;
+    position: absolute;
+}
+/*circle on home page*/
+.circle4{
+    height: 50px;
+    width: 50px;
+    margin-left: 400pt;
+    bottom:50pt;
+    border:solid;
+    border-color: #49b790;
+    background-color: #49b790;
+    border-radius: 50%;
+    position: absolute;
+}
+
+/*circle on home page*/
+.circle5{
+    height: 50px;
+    width: 50px;
+    margin-left: 850pt;
+    bottom:40pt;
+    border:solid;
+    border-color: #eed2cc;
+    background-color: #eed2cc;
+    border-radius: 50%;
+    position: absolute;
+}
+/*circle on home page*/
+.circle6{
+    height: 50px;
+    width: 50px;
+    margin-left: 750pt;
+    bottom:200pt;
+    border:solid;
+    border-color: #7180ac;
+    border-radius: 50%;
+    position: absolute;
+}
+/*circle on home page*/
+.circle7{
+    height: 50px;
+    width: 50px;
+    margin-left: 900pt;
+    bottom:300pt;
+    border: 3px solid;
+    border-color: #49b790;
+    border-radius: 50%;
+    position: absolute;
+}
+/*paragraphs on About Me and Education Page*/
+p{
+    font-family: 'Inter';
+    letter-spacing: 0.1pt;
+    color:#555;
+    margin-right:20pt;
+}
+/*For images on Education page*/
+.qmul aside{
+    float:right;
+    position: absolute;
+}
+
+/*For image of school logo*/
+.busheymeads aside{
+    float:right;
+    position: absolute;
+}
+
+/*Image for About Us page*/
+#handshake{
+    margin-left:135pt;
+    position:absolute;
+}
+
+/*Image for About Us page*/
+#technical{
+    margin-left:350pt;
+    position:absolute;
+}
+/*Image for About Us page*/
+#personal{
+    margin-left:555pt;
+    position:absolute;
+}
+/*Image for About Us page*/
+#research{
+    margin-left:780pt;
+    position:absolute; 
+}
+
+/*for table in About Us page*/
+#a p{
+    font-family: 'Inter';
+    letter-spacing: 0.1pt;
+    font-weight:100;
+    margin-right:-20pt;
+    text-align:left;
+    margin-left:5pt;
+}
+
+/*for table in About Us page*/
+#b p{
+    font-family: 'Inter';
+    letter-spacing: 0.1pt;
+    font-weight:100;
+    margin-right:10pt;
+    text-align:left;
+    margin-left:5pt;
+}
+
+/*for table in About Us page*/
+#c p{
+    font-family: 'Inter';
+    letter-spacing: 0.1pt;
+    font-weight: 100;
+    margin-right:10pt;
+    text-align:left;
+    margin-left:5pt;
+}
+/*for table in About Us page*/
+#d p{
+    font-family: 'Inter';
+    font-weight:100;
+    letter-spacing: 0.1pt;
+    margin-right:-40pt;
+    text-align:left;
+    margin-left:5pt;
+}
+/*for styling for view blog page*/
+.viewblogstyles div{
+    margin-left:10pt;
+    margin-right:10pt;
+    border:1px solid #000;
+    margin-bottom:20px;
+    border-color:#49b790;
+    background-color:#49b790;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:10pt;
+
+}
+/*for styling for view blog page*/
+#vlogpoststyle{
+    margin-bottom:20px;
+    font-family: 'Inter';
+    letter-spacing: 0.1pt;
+    font-size:10pt;
+    border-color:#49b790;
+    background-color:#49b790;
+    margin-right:130pt;
+    margin-left:130pt;
+    margin-top:20pt;
+    padding:15pt;
+    color:#555;
+}
+/*for styling for view blog page*/
+#filterbymonths{
+    margin-left:300pt;
+    background-color: #7180ac;
+    font-family: 'Inter';
+    letter-spacing: 0.1pt;
+    color: white;
+    border-color: #7180ac;
+}
+/*for blog page boxes*/
+#viewblogbox{
+    background-color: #eee;
+    margin-left:0pt;
+    margin-right:0pt;
+    border:none;
+}
+/*for drop down menu*/
+.dropbtn {
+    background-color: #7180ac;
+    color: white;
+    font-family: 'Inter';
+    letter-spacing: 0.1pt;
+    border: #7180ac;
+    cursor: pointer;
+    margin-left:300pt;
+}
+
+.addpreviewpost{
+    margin-left:150pt;
+    background-color:#4c5364;
+    font-family: 'Inter';
+    color: white;
+    border-color:#4c5364;
+    letter-spacing: 0.1pt;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+  /*used for dropdown content */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #9aa8a8;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-left: 300pt;
+}
+  
+  /*links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+display: inline-block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
+
+  /*for add post button*/
+#addPostButton{
+    margin-top: 30px;
+    padding-right: 40pt;
+    padding-left: 40pt;
+    padding-top:15pt;
+    padding-bottom:15pt;
+    font-family: 'Inter';
+    letter-spacing: 0.1pt;
+    text-transform:uppercase;
+    border:none;
+    border-radius: 10px;
+    background-color: #7180AC;
+    color: white;
+    font-size:12pt;
+    letter-spacing: 0.3em;
+    margin-left:130pt;
+    margin-bottom:20pt;
+ }
+  /*for edit post button*/
+  #editPostButton{
+    margin-top: 30px;
+    padding-right: 40pt;
+    padding-left: 40pt;
+    padding-top:15pt;
+    padding-bottom:15pt;
+    font-family: 'Montserrat', sans-serif;
+    text-transform:uppercase;
+    border:none;
+    border-radius: 10px;
+    background-color: #49b790;
+    color: white;
+    font-size:12pt;
+    letter-spacing: 0.3em;
+    margin-left:145pt;
+    margin-bottom:20pt;
+  }
+  /*for clear post button*/
+  #clearPostButton{
+    margin-top: 30px;
+    padding-right: 40pt;
+    padding-left: 40pt;
+    padding-top:15pt;
+    padding-bottom:15pt;
+    font-family: 'Montserrat', sans-serif;
+    text-transform:uppercase;
+    border:none;
+    border-radius: 10px;
+    background-color:#49b790 ;
+    color: white;
+    font-size:12pt;
+    letter-spacing: 0.3em;
+    margin-left:140pt;
+    margin-bottom:10pt;
+  }
+/*for preview post button*/
+  #previewPostButton{
+    margin-top: 30px;
+    padding-right: 40pt;
+    padding-left: 40pt;
+    padding-top:15pt;
+    padding-bottom:15pt;
+    font-family: 'Montserrat', sans-serif;
+    text-transform:uppercase;
+    border:none;
+    border-radius: 10px;
+    background-color: #e8998d;
+    color: white;
+    font-size:12pt;
+    letter-spacing: 0.3em;
+    margin-left:130pt;
+    margin-bottom:20pt;
+  }
+  /*footer*/
+
+body{
+	line-height: 1.5;
+	font-family: 'Inter';
+    letter-spacing: 0.1pt;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #24262b;
+    padding: 40px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 20px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 600;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e8998d;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li{
+    margin-bottom: 10px;
+    color:white;
+    font-size: 16px;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #dedede;
+	display: block;
+	transition: all 0.3s ease;
+
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+/*social media links*/
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 20%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+/*hover over social media links*/
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #e91e63;
+}

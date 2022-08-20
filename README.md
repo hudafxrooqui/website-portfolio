@@ -28,4 +28,9 @@ Login and Add Post Page
 
 The add post page allows logged in users to add blogs via the html form.The blogs are stored in a database, in order of date and time.
 
+Footer with social media links and contact details
+
+![image](https://user-images.githubusercontent.com/96451714/185758130-f4970819-38e6-4904-b9e0-f6d865ca55d4.png)
+
+
 

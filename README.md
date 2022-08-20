@@ -18,5 +18,7 @@ Education Page
 ![image](https://user-images.githubusercontent.com/96451714/185757911-2cb14909-fa11-40a2-a162-1c64e0d1b217.png)
 
 Login and Add Post Page
+![image](https://user-images.githubusercontent.com/96451714/185757976-d50e6af9-3ba3-4659-bd6c-bcd3de2bd69e.png)
+The add post page allows logged in users to add blogs via the html form. 
 
 
